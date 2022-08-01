@@ -139,9 +139,9 @@ local function unparse(parsed, parts)
 				--table.insert(parts, "\27E")
 
 			else
-				table.insert(parts, "\27F")
+				--table.insert(parts, "\27F")
 				unparse(part, parts)
-				table.insert(parts, "\27E")
+				--table.insert(parts, "\27E")
 
 			end
 		end
